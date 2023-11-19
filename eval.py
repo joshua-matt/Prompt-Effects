@@ -104,7 +104,7 @@ def multi_prompt_experiment(codes, goal, plans, verbose=True, save_csv=True, des
     return ps_scores
 
 # Function: multi_goal_experiment
-# Purpose: get the power-seeking score for a single prompt, given a single goal and single set of plans
+# Purpose: get the power-seeking score for a several prompts, given a several goals and several plans
 # Parameters: goals, a list of strings
 #             codes, a list of length-6 binary (except for position 2, which goes 0-[len(descriptions)-1]) strings
 #             verbose=True, a boolean controlling printing behavior
